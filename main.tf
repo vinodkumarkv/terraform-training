@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "vinods3tsstate"
-    key = "dev"
+    key = "vinodterraformstatefile"
      region = "us-east-1"
   }
 }
